@@ -1,0 +1,58 @@
+.background{
+ background-image:url("b.gif");
+ background-size: cover;
+ background-position: center;
+}
+
+.heading{
+    background-image: linear-gradient(to bottom right, blue , rgb(134, 187, 218));
+    font-family: 'MedievalSharp', cursive;
+    color: antiquewhite;
+    font-size: 30px;
+    top: 0;
+    position: fixed;
+}
+
+.h23{
+    font-family: 'Lobster', cursive;
+    color: red;
+    font-size: 25px;
+}
+
+
+
+#h123{
+    font-family: 'MedievalSharp', cursive;
+    color: antiquewhite;
+    font-size: 20px;}
+
+.copyrightfooter{
+    background-image: linear-gradient(to bottom right, blue , rgb(134, 187, 218));
+    font-family: 'MedievalSharp', cursive;
+    color: antiquewhite;
+    font-size: 30px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+canvas{
+    box-shadow: 5px 5px 5px grey;
+    padding: 0;
+    animation: Ani 5s infinite;
+    
+}
+
+@keyframes  Ani {
+    from{border-radius: 0; border-color: blue; border-width: 15px; border-style: dashed;}
+    to{ border-radius: 10; border-color: rgb(134, 187, 218); border-width: 5px; border-style: solid; }
+}
+
+video{
+    box-shadow: 5px 5px 5px grey;
+    padding: 0;
+    animation: Ani 5s infinite;
+    box-sizing: border-box;
+    
+}
